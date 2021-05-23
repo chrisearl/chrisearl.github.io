@@ -4,13 +4,86 @@
     <meta charset="utf-8">
     <title>Chris Earl</title>
     <meta name="description" content="Chris Earl">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@400;700&display=swap');
+
+      html {
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+
+      body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+      }
+
+      ol, ul {
+        list-style: none;
+      }
+
+      img {
+        height: auto;
+        max-width: 100%;
+      }
+
+      body {
+        background-color: rgb(77, 77, 77);
+        color: rgb(243, 243, 243);
+        font-family: 'Newsreader', serif;
+      }
+
+      a {
+        color: rgb(177, 177, 177);
+      }
+
+      a:hover, a:visited {
+        color: rgb(255, 255, 255);
+      }
+
+      main {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        width: 100vw;
+      }
+
+      h1 {
+        font-size: 4.8vw;
+        font-weight: bold;
+        margin-bottom: 8px;
+        min-width: 50vw;
+      }
+
+      h1 > span {
+        color: rgb(177, 177, 177);
+      }
+
+      div {
+        display: flex;
+        font-size: 2.4vw;
+        min-width: 50vw;
+      }
+
+      div > p {
+        padding-right: 12px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Chris Earl</h1>
-    <ul>
-      <li><a href="https://twitter.com/ChrisEarl">Twitter</a></li>
-      <li><a href="https://dribbble.com/ChrisEarl">Dribbble</a></li>
-      <li><a href="https://www.linkedin.com/pub/chris-earl/2/60a/1bb">LinkedIn</a></li>
-    </ul>
+    <main>
+      <h1>Chris Earl<span>…obviously!</span></h1>
+      <div>
+        <p><a href="https://www.linkedin.com/pub/chris-earl/2/60a/1bb">LinkedIn</a></p>
+        <p><a href="https://twitter.com/ChrisEarl">Twitter</a></p>
+        <p><a href="https://dribbble.com/ChrisEarl">Dribbble</a></p>
+      </div>
+    </main>
   </body>
 </html>
